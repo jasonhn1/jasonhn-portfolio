@@ -1,0 +1,76 @@
+.absolute{
+    position: absolute;
+  }
+  
+  .z-20{
+    z-index: 20;
+  }
+  
+  .z-0{
+    z-index: 0;
+  }
+  
+  .z-10{
+    z-index: 10;
+  }
+  
+  .inset-0{
+    inset: 0px;
+  }
+  
+  .inset-4{
+    inset: 2px;
+  }
+  
+
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .place-items-center {
+    align-items: center;
+    justify-items: center;
+  }
+   
+  .mountain-cut,.mountain-bg{
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+
+.mountain-bg{
+    z-index: 0;
+   
+}
+.mountain-cut{
+    z-index: 10;
+}
+
+.center-text{
+  margin-bottom: 200px;
+  font-size: 50px;
+  color: rgb(248, 239, 227);
+}
+
+#landing{
+
+  padding-bottom: 0px; /* Adjust as needed */
+  
+}
+

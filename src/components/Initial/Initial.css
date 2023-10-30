@@ -1,0 +1,17 @@
+.corner{
+    top:0;
+    font-size: 60px;
+    color: antiquewhite;
+    z-index: 30;
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+}
+
+@media ((max-width: 800px)){
+    .corner{
+    right:0;
+    margin-right: 30px;
+    }
+}
