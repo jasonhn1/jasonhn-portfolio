@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/jasonhn-portfolio/static/css/main.d0316f51.css",
-    "main.js": "/jasonhn-portfolio/static/js/main.ef731668.js",
+    "main.js": "/jasonhn-portfolio/static/js/main.877f9867.js",
     "static/js/787.1ed0c42c.chunk.js": "/jasonhn-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mountain-bg.png": "/jasonhn-portfolio/static/media/mountain-bg.6f2acfcc4aa911b79888.png",
+    "static/media/mountain-cut.png": "/jasonhn-portfolio/static/media/mountain-cut.cf8656f9da7c5ea4a648.png",
     "static/media/delta.png": "/jasonhn-portfolio/static/media/delta.f8cf2f906c9796cbe31e.png",
     "static/media/film.png": "/jasonhn-portfolio/static/media/film.7a745714e05cf685a55c.png",
     "static/media/member.png": "/jasonhn-portfolio/static/media/member.5c242b3ac0ff673736de.png",
@@ -10,11 +12,11 @@
     "static/media/cert.png": "/jasonhn-portfolio/static/media/cert.aa50ccf2c41b3b573a0f.png",
     "index.html": "/jasonhn-portfolio/index.html",
     "main.d0316f51.css.map": "/jasonhn-portfolio/static/css/main.d0316f51.css.map",
-    "main.ef731668.js.map": "/jasonhn-portfolio/static/js/main.ef731668.js.map",
+    "main.877f9867.js.map": "/jasonhn-portfolio/static/js/main.877f9867.js.map",
     "787.1ed0c42c.chunk.js.map": "/jasonhn-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0316f51.css",
-    "static/js/main.ef731668.js"
+    "static/js/main.877f9867.js"
   ]
 }
