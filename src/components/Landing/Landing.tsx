@@ -1,6 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import './Landing.css'; // Import the CSS file
+import background from "../img/mountain-bg.png";
+import cut from "../img/mountain-cut.png";
 
 export default function Landing() {
   const ref = useRef(null);
@@ -27,7 +29,7 @@ export default function Landing() {
       <motion.div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(/img/mountain-bg.png)`,
+          backgroundImage: `url(${background})`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
@@ -37,7 +39,7 @@ export default function Landing() {
       <div
         className="absolute inset-0 z-20"
         style={{
-          backgroundImage: `url(/img/mountain-cut.png)`,
+          backgroundImage: `url(${cut})`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           backgroundRepeat:'no-repeat'
