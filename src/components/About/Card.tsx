@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import './About.css'; // Import the CSS file
+import profile from "../img/profile.jpg";
 
 
 export default function Landing() {
@@ -58,7 +59,7 @@ export default function Landing() {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-avatar">
-                            <img src="img/profile.jpg" id="profile" alt="Jason Nguyen Profile Pic"/>
+                            <img src={profile} id="profile" alt="Jason Nguyen Profile Pic"/>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,9 @@ import './About.css'; // Import the CSS file
 interface ParallaxProps {
   children: string;
   baseVelocity: number;
+  // color:string;
 }
+
 
 function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   const baseX = useMotionValue(0);
@@ -62,14 +64,24 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
    * currently wrapped between -20 and -45% - this 25% is derived from the fact
    * we have four children (100% / 4). This would also want deriving from the
    * dynamically generated number of children.
+   *   const colors = ["#E54461", "#83B2A3", "#69BBE8", "#D464A2", "#F3D79B"];
+
    */
   return (
     <div className="parallax">
-      <motion.div className="scroller" style={{ x }}>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
+      
+      <motion.div className="scroller" style={{ x}}>
+        <span style={{ color :"#E54461"}} >{children} </span>
+        <span style={{ color :"#83B2A3" }}>{children} </span>
+        <span style={{ color :"#69BBE8" }}>{children} </span>
+        <span style={{ color :"#D464A2" }}>{children} </span>
+         <span style={{ color :"#F3D79B" }}>{children} </span>
+         <span style={{ color :"#E54461" }}>{children} </span>
+
+         <span style={{ color :"#83B2A3" }}>{children} </span>
+
+         <span style={{ color :"#69BBE8" }}>{children} </span>
+
       </motion.div>
       
     </div>
@@ -78,13 +90,14 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 
 export default function About() {
   return (
-    <>
+    <>   
+
     <section id = "about">
-      <ParallaxText baseVelocity={3}>About Jason Huy Nguyen</ParallaxText>
-      <ParallaxText baseVelocity={-2}>Full Stack Web Developer</ParallaxText>
-      <ParallaxText baseVelocity={3}>Code Design Sleep Repeat</ParallaxText>
-      <ParallaxText baseVelocity={-2}>Software Engineering</ParallaxText>
-      <ParallaxText baseVelocity={3}>Volleyball Beaches Travel</ParallaxText>
+      <ParallaxText baseVelocity={1}   >About Jason  Nguyen</ParallaxText>
+      <ParallaxText baseVelocity={-2}   >Full Stack Developer</ParallaxText>
+      <ParallaxText baseVelocity={2}   >Code Design </ParallaxText>
+      <ParallaxText baseVelocity={-3}   >Software Engineering</ParallaxText>
+      <ParallaxText baseVelocity={3}   >Volleyball Travel</ParallaxText>
 
     </section>
     </>

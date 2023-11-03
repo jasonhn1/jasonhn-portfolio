@@ -36,8 +36,102 @@
   }
   
   .relative {
-    position: relative;
+    position:relative;
   }
+  #hello{
+    position:relative;
+    top: -300px;
+    font-family: 'Yeseva One', serif;
+    font-size: 60px;
+  }
+.hello-container{
+  display: flex; /* Use flexbox */
+margin-top: 300px
+}
+ #j{
+    position:absolute;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background: #E54461;
+    color:#F8F8EC;
+}
+
+  #a{
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 80px solid #83B2A3;
+   margin-left: 100px;
+   font-family: 'Abril Fatface', serif;
+   font-size: 65px;
+   color:#F8F8EC;
+  }
+
+  .a{
+    font-family: 'Abril Fatface', serif;
+    font-size: 65px;
+    margin-left: -20px;
+    padding-bottom: 10px;
+  }
+
+  #s{
+    position:absolute;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+      width: 80px;
+      height: 80px;
+      background: #69BBE8;
+
+      margin-left: 220px;
+      padding-top: 5px;
+      color:#F8F8EC;
+  }
+
+#o{
+  background-color: #D464A2;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-family: 'Ribeye', sans-serif;
+  font-size: 60px;
+  margin-left: 320px;
+  padding-left:15px;
+  padding-top:4px;
+  color:#F8F8EC;
+}
+
+
+#n{
+  background-color: #F3D79B;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 60px;
+  margin-left: 420px;
+  position:absolute;
+  margin-top: -72px;
+ 
+  color:#F8F8EC;
+  } 
+
+.name{
+  margin-top: -180px;
+  margin-left: -380px;
+  z-index: 300;
+}
+
+
+  .relatives {
+    position:absolute;
+  }
+  
   
   .grid {
     display: grid;
@@ -63,7 +157,7 @@
 }
 
 .center-text{
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   font-size: 50px;
   color: rgb(248, 239, 227);
 }
@@ -74,3 +168,15 @@
   
 }
 
+@media (max-width:522px) {
+  #j,#a,#s,#o,#n{
+    position:relative;
+    margin: 0px;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+
+  #hello{
+    margin-left: -140px;
+  }
+}
