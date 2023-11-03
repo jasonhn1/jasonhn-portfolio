@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/jasonhn-portfolio/static/css/main.d0316f51.css",
-    "main.js": "/jasonhn-portfolio/static/js/main.877f9867.js",
+    "main.css": "/jasonhn-portfolio/static/css/main.e3fd5e79.css",
+    "main.js": "/jasonhn-portfolio/static/js/main.c7bb4f7a.js",
     "static/js/787.1ed0c42c.chunk.js": "/jasonhn-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/mountain-bg.png": "/jasonhn-portfolio/static/media/mountain-bg.6f2acfcc4aa911b79888.png",
-    "static/media/mountain-cut.png": "/jasonhn-portfolio/static/media/mountain-cut.cf8656f9da7c5ea4a648.png",
+    "static/media/profile.jpg": "/jasonhn-portfolio/static/media/profile.0969e15a63066ce52773.jpg",
+    "static/media/mountain-cut.png": "/jasonhn-portfolio/static/media/mountain-cut.a78fd22aaecf14f83bc6.png",
     "static/media/delta.png": "/jasonhn-portfolio/static/media/delta.f8cf2f906c9796cbe31e.png",
     "static/media/film.png": "/jasonhn-portfolio/static/media/film.7a745714e05cf685a55c.png",
+    "static/media/mountain-bg.jpg": "/jasonhn-portfolio/static/media/mountain-bg.51260e34bc3cb20f56ca.jpg",
     "static/media/member.png": "/jasonhn-portfolio/static/media/member.5c242b3ac0ff673736de.png",
     "static/media/safe.png": "/jasonhn-portfolio/static/media/safe.3421a2bc2e8337fec4d7.png",
     "static/media/cert.png": "/jasonhn-portfolio/static/media/cert.aa50ccf2c41b3b573a0f.png",
     "index.html": "/jasonhn-portfolio/index.html",
-    "main.d0316f51.css.map": "/jasonhn-portfolio/static/css/main.d0316f51.css.map",
-    "main.877f9867.js.map": "/jasonhn-portfolio/static/js/main.877f9867.js.map",
+    "main.e3fd5e79.css.map": "/jasonhn-portfolio/static/css/main.e3fd5e79.css.map",
+    "main.c7bb4f7a.js.map": "/jasonhn-portfolio/static/js/main.c7bb4f7a.js.map",
     "787.1ed0c42c.chunk.js.map": "/jasonhn-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0316f51.css",
-    "static/js/main.877f9867.js"
+    "static/css/main.e3fd5e79.css",
+    "static/js/main.c7bb4f7a.js"
   ]
 }
